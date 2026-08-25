@@ -3,6 +3,7 @@
 # Colecciones en Python
 
 # Las listas es lo que se conoce en otros lenguajes como arreglos o vectores
+
 nombres = ['Ema','Abru','Martu','Milo']
 print(nombres)
 '''
@@ -32,7 +33,6 @@ nombres.append([1,2,3])
 nombres.append(True)
 nombres.append(10.45)
 print(nombres)
-
 
 #Insertar un elemento en un indice especifico
 nombres.insert(4, "Silver")
