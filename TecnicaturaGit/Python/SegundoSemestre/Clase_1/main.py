@@ -1,4 +1,8 @@
 # Lista = Ema , Abru , Natalia, Martu
+# Colecciones en Python
+
+# Las listas es lo que se conoce en otros lenguajes como arreglos o vectores
+
 nombres = ['Ema','Abru','Martu','Milo']
 print(nombres)
 '''
@@ -24,7 +28,11 @@ for nombre in nombres: # nombre es singular, la lista es plural
 print(len(nombres)) #Le pasamos como parametro la lista
 #Agregamos un elemento
 nombres.append("Kiu")
+nombres.append([1,2,3])
+nombres.append(True)
+nombres.append(10.45)
 print(nombres)
+
 #Insertar un elemento en un indice especifico
 nombres.insert(4, "Silver")
 print(nombres)
