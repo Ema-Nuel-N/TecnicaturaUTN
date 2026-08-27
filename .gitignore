@@ -20,3 +20,15 @@ lib/
 .idea/
 *.iml
 .vscode/   
+# NetBeans
+nbproject/
+build.xml
+manifest.mf
+build/
+dist/
+nbbuild/
+nbdist/
+
+# Java
+*.class
+*.jar
