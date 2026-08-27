@@ -1,0 +1,34 @@
+/TecnicaturaGit/Java/SegundoSemestre/Clase_03/EjercicioCiclos03/nbproject/private/
+/TecnicaturaGit/Java/SegundoSemestre/Clase_03/EjercicioCiclos03/build/
+/TecnicaturaGit/Java/SegundoSemestre/Clase_03/EjercicioCiclo04/nbproject/private/
+/TecnicaturaGit/Java/SegundoSemestre/Clase_03/EjercicioCiclo04/dist/
+/TecnicaturaGit/Java/SegundoSemestre/Clase_03/EjercicioCiclo04/build/
+/TecnicaturaGit/Java/SegundoSemestre/Clase_03/EjercicioCiclos05/nbproject/private/
+/TecnicaturaGit/Java/SegundoSemestre/Clase_03/EjercicioCiclos05/build/
+# Excluir carpetas de compilación y salida
+bin/
+build/
+out/
+target/
+
+# Excluir librerías locales o descargas innecesarias
+lib/
+*.jar
+*.class
+
+# Excluir configuraciones específicas del IDE (opcional pero recomendado)
+.idea/
+*.iml
+.vscode/   
+# NetBeans
+nbproject/
+build.xml
+manifest.mf
+build/
+dist/
+nbbuild/
+nbdist/
+
+# Java
+*.class
+*.jar
