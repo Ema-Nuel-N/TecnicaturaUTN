@@ -5,20 +5,24 @@ un cero 0
 */
 package Ciclos02;
 
-import javax.swing.JOptionPane;
+import java.util.Scanner;
 
-public class Ejercicio02 {
+
+public class Ejercicio02{
     public static void main(String[] args) {
         int numero;
-        numero = Integer.parseInt(JOptionPane.showInputDialog("Digite un número: "));
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Digite un número: ");
+        numero = Integer.parseInt(entrada.nextLine());
         while(numero != 0){
             if (numero > 0){
-                JOptionPane.showMessageDialog(null, "El número "+numero+" es Positivo");
+                System.out.println("El número "+numero+" es Positivo");
             }else{
-                JOptionPane.showMessageDialog(null,"El número "+numero+" es Negativo");
+                System.out.println("El número "+numero+" es Negativo");
             }
-            numero = Integer.parseInt(JOptionPane.showInputDialog("Digite otro número: "));
+            System.out.println("Digite otro número: ");
+            numero = Integer.parseInt(entrada.nextLine());
         }
-        JOptionPane.showMessageDialog(null,"El programa finalizo por ingresar 0");
+        System.out.println("El programa finalizo por ingresar 0");
     }
 }
