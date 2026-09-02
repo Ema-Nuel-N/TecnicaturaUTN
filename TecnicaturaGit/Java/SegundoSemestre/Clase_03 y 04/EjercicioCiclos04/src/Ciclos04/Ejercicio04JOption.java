@@ -4,7 +4,7 @@ y mostrar cuántos números se han introducido.
 Lo hacemos primero con la clase Scanner
 Luego lo hacemos con la clase JOptionPane
 */
-package Ciclo04;
+package Ciclos04;
 import javax.swing.JOptionPane;
 
 public class Ejercicio04JOption {
