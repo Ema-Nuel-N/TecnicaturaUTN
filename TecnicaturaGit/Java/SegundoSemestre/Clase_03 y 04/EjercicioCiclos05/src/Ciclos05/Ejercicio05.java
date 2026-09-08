@@ -6,7 +6,7 @@ luego ir pidiendo números indicando "es mayor" o
 El proceso termina cuando el usuario acierta y mostramos
 el número de intentos hechos.
 */
-package Ciclo05;
+package Ciclos05;
 import java.util.Scanner;
 
 public class Ejercicio05 {
