@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/TecnicaturaGit/Python/SegundoSemestre/Clase_6/.idea/Clase_6.iml" filepath="$PROJECT_DIR$/TecnicaturaGit/Python/SegundoSemestre/Clase_6/.idea/Clase_6.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/TecnicaturaUTN.iml" filepath="$PROJECT_DIR$/.idea/TecnicaturaUTN.iml" />
     </modules>
   </component>

@@ -14,7 +14,7 @@ public class Ejercicio01 {
         numero = Integer.parseInt(JOptionPane.showInputDialog("Digite un número: "));
         while(numero >= 0){//Mientras el número sea igual o mayor a 0 o positivo
             cuadrado = (int)Math.pow(numero,2);
-            JOptionPane.showMessageDialog(null, "El numero "+numero+" elevado al cuadrado es: "+cuadrado);
+            JOptionPane.showMessageDialog(null, "El número "+numero+" elevado al cuadrado es: "+cuadrado);
             numero = Integer.parseInt(JOptionPane.showInputDialog("Digite otro número: "));
         }
         JOptionPane.showMessageDialog(null,"El programa a finalizado por número negativo.");
