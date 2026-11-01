@@ -1,19 +1,48 @@
-class FiguraGeometrica:
-    def __init__(self, alto, ancho):
-        self._alto = alto
-        self._ancho = ancho
+from abc import ABC, abstractmethod
 
-    def get_alto(self):
+# ABC significa: Abstract Base Class, convierte una clase en abstracta
+
+class FiguraGeometrica(ABC):
+    def __init__(self, alto, ancho):
+        if self._validar_valores(ancho):
+            self._ancho = ancho
+        else:
+            self._ancho = 0
+            print(f"Valor erroneo para el ancho: {ancho}")
+        if self._validar_valores(alto):
+            self._alto = alto
+        else:
+            self._alto = 0
+            print(f"Valor erroneo para el alto: {alto}")
+
+    @property
+    def alto(self):
         return self._alto
 
-    def set_alto(self, alto):
-        self._alto = alto
+    @alto.setter
+    def alto(self, alto):
+        if self._validar_valores(alto):
+            self._alto = alto
+        else:
+            print(f"Valor erroneo para el ancho: {alto}")
 
-    def get_ancho(self):
+    @property
+    def ancho(self):
         return self._ancho
 
-    def set_ancho(self,ancho):
-        self._ancho = ancho
+    @ancho.setter
+    def ancho(self,ancho):
+        if self._validar_valores(ancho):
+            self._ancho = ancho
+        else:
+            print(f"Valor erroneo para el ancho: {ancho}")
+
+    @abstractmethod
+    def calcular_area(self):
+        pass
 
     def __str__(self):
         return f'alto: {self._alto}, ancho: {self._ancho}'
+
+    def _validar_valores(self,valor): #Método capsulado
+        return True if 0 < valor < 10 else False
